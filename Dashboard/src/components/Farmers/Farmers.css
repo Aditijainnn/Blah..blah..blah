@@ -1,0 +1,38 @@
+.farmers{
+    background: var(--color-background-secondary);
+    padding: 30px 20px;
+    border-radius: var(--radius-3);
+}
+
+.farmers > h1{
+    margin-bottom: 20px;
+}
+
+.farmers table{
+    font-size: 12px;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.farmers th,
+.farmers td{
+    padding: 5px 10px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+}
+
+.farmers td{
+    color: var(--color-muted);
+}
+
+.farmers table tbody tr:nth-child(odd){
+    background: var(--color-background-primary);
+}
+
+.farmers .user__container{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}

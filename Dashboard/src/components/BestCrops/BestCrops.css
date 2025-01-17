@@ -1,0 +1,30 @@
+.best__crops{
+    padding: 30px 20px;
+    background: var(--secondary-glow);
+    border-radius: var(--radius-3);
+}
+
+.best__crops h1{
+    margin-bottom: 30px;
+}
+
+.best__crops .product__card{
+    display: flex;
+    gap: 20px;
+    margin: 15px 0;
+}
+.best__crops .product__card .product__image{
+    width: 2.5rem;
+    height: 2.5rem;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+    overflow: hidden;
+    border-radius: var(--radius-3);
+}
+
+.best__crops .product__card .discount{
+    padding: 5px 10px;
+    border-radius: var(--radius-3);
+}
